@@ -1,0 +1,9 @@
+<app-card
+  *ngFor="let post of posts"
+  [title]="post.title"
+  [imageUrl]="post.imgUrl"
+  [username]="post.username"
+  [content]="post.content"
+>
+  {{ post }}
+</app-card>
